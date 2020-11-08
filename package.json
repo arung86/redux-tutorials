@@ -1,0 +1,29 @@
+{
+  "name": "redux-tutorial",
+  "version": "0.0.1",
+  "description": "its to learn redux concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --exec babel-node"
+  },
+  "keywords": [
+    "redux",
+    "javascript"
+  ],
+  "author": "Arun",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "babel-loader": "^8.1.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
